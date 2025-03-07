@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Brush
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap"
+    />
+    <link rel="stylesheet" href="CSS/fontstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="JS/setcontent.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="abril text-start my-4">
+            <h1 class="page-headings mb-3" style="font-family: Alex Brush">
+            Alex Brush
+            </h1>
+            <p class="page-paragraph">
+            Designed by Robert Leuschke
+            </p>
+        </div>
+
+        <!-- Example Text Section -->
+        <div class="example text-center py-3">
+            <p
+            class="emp text-black"
+            style="font-family: 'Alex Brush', cursive; font-size: 50px"
+            >
+            Hello everyone, it is my first project iam very happy for this
+            </p>
+        </div>
+        <hr />
+        <!-- Corrected Input Field -->
+        <div class="user-input">
+                      <div>
+                        <textarea
+                            id="form-control"
+                            placeholder="Enter your content"
+                        ></textarea>
+                      </div>
+                     <div>
+                       <button id="content-button" onclick="setcontent()">Set</button>
+                     </div>
+                <!-- </div> -->
+            <!-- </div> -->
+        </div>
+        
+
+        <!-- Content Section -->
+        <div class="example1 row">
+            <div class="content col-md-6 text-start">
+            <div class="fs-2 text-start">Font size 30px,Thin 100px</div>
+            <br />
+            <p id="contents1" style="font-family: 'Alex Brush', cursive;font-size:30px">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s,when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+            </p>
+            </div>
+            <div class="content1 col-md-6 text-start">
+            <div class="fs-2 text-start pb-4">
+                Font size 40px , Italic,Thin 200px
+            </div>
+            <p
+                id="contents2"
+                class="fst-italic"
+                style="font-family: 'Alex Brush';font-size:40px;
+  ">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since 
+            </p>
+            </div>
+            <hr>
+            <div class="content2 col-md-12 text-start pt-5">
+            <div class="fs-2 text-start">Font size 50px , Italic</div>
+            <p
+                id="contents3"
+                class="fst-italic"
+                style="font-family: 'Alex Brush';
+                font-size:50px;
+  "
+            >
+                when an unknown printer took a galley of type and scrambled it to
+                make a type specimen book.It has survived not only five centuries,.
+            </p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
