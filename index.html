@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="style1.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="/index.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/filter.js"></script>
     <script src="./input.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,9 @@
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn"> <i class="fa-solid fa-list"></i> </button>
                     <div id="myDropdown" class="dropdown-content">
-                        <input class="search" type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <div class="searchbar">
+                            <input class="search" type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        </div>
                         <div class="scrollable-content">
                             <a style="font-family: 'Abril Fatface', cursive; font-size:25px" href="#abril">Abril Fatface</a>
                             <a style="font-family: 'Aclonica', cursive; font-size:25px" href="#aclonica">Aclonica</a>
@@ -280,7 +282,7 @@
     </main>
     <div>
         <div id="abril" class="container-fluid">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/abril.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Abril Fatface</p>
@@ -299,7 +301,7 @@
         </div>
         <hr>
         <div id="aclonica" class="container-fluid">
-            <button class="bttn" onclick="window.location.href='aclonica.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/aclonica.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Aclonica</p>
@@ -318,7 +320,7 @@
         </div>
         <hr>
         <div id="allura" class="box">
-            <button class="bttn" onclick="window.location.href='allura.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/allura.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Allura</p>
@@ -337,7 +339,7 @@
         </div>
         <hr>
         <div id="alex brush" class="box">
-            <button class="bttn" onclick="window.location.href='alex.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/alex.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Alex Brush</p>
@@ -356,7 +358,7 @@
         </div> 
         <hr> 
         <div id="arizonia" class="box">
-            <button class="bttn" onclick="window.location.href='arizonia.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/arizonia.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Arizonia</p>
@@ -375,7 +377,7 @@
         </div> 
         <hr>  
         <div id="agbalumo" class="box">
-            <button class="bttn" onclick="window.location.href='agbalumo.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/agbalumo.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Agbalumo</p>
@@ -394,7 +396,7 @@
         </div>  
         <hr> 
         <div id="aguafina" class="box">
-            <button class="bttn" onclick="window.location.href='aguafina.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/aguafina.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Aguafina Script</p>
@@ -413,7 +415,7 @@
         </div> 
         <hr>    
         <div id="akronim" class="box">
-            <button class="bttn" onclick="window.location.href='akronim.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/akronim.html'">
                 <div class="fonts">
                     <div class="font-names">
                        <p class="name">Akronim</p>
@@ -432,7 +434,7 @@
         </div>  
         <hr>
         <div id="arbutus"  class="box">
-            <button class="bttn" onclick="window.location.href='arbutus.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/arbutus.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Arbutus</p>
@@ -451,7 +453,7 @@
         </div>  
         <hr>
         <div id="bangers" class="box">
-            <button class="bttn" onclick="window.location.href='bangers.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/bangers.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Bangers</p>
@@ -471,7 +473,7 @@
         </div>   
         <hr>
         <div id="bad" class="box">
-            <button class="bttn" onclick="window.location.href='badscript.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/badscript.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Bad Script</p>
@@ -490,7 +492,7 @@
         </div> 
         <hr>   
         <div id="barrio" class="box">
-            <button class="bttn" onclick="window.location.href='barrio.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/barrio.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Barrio</p>
@@ -509,7 +511,7 @@
         </div>
         <hr>     
         <div id="ballet" class="box">
-            <button class="bttn" onclick="window.location.href='ballet.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/ballet.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Ballet </p>
@@ -528,7 +530,7 @@
         </div>
         <hr>    
         <div id="baby" class="box">
-            <button class="bttn" onclick="window.location.href='babylonica.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/babylonica.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Babylonica </p>
@@ -547,7 +549,7 @@
         </div> 
         <hr>    
         <div id="bevan" class="box">
-            <button class="bttn" onclick="window.location.href='bevan.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/bevan.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Bevan </p>
@@ -566,7 +568,7 @@
         </div>
         <hr>     
         <div id="berk" class="box">
-            <button class="bttn" onclick="window.location.href='berkshire_swash.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/berkshire_swash.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Berkshire Swash</p>
@@ -585,7 +587,7 @@
         </div>  
         <hr>
         <div id="beau" class="box">
-            <button class="bttn" onclick="window.location.href='beau_rivage.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/beau_rivage.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Beau Rivage</p>
@@ -604,7 +606,7 @@
         </div> 
         <hr> 
         <div id="beth" class="box">
-            <button class="bttn" onclick="window.location.href='beth_ellen.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/beth_ellen.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Beth Ellen</p>
@@ -623,7 +625,7 @@
         </div>  
         <hr>      
         <div id="birth" class="box">
-            <button class="bttn" onclick="window.location.href='birthstone_bounce.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/birthstone_bounce.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Birthstone Bounce</p>
@@ -642,7 +644,7 @@
         </div>
         <hr> 
         <div class="box">
-            <button class="bttn" onclick="window.location.href='caveat.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/caveat.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Caveat</p>
@@ -661,7 +663,7 @@
         </div>
         <hr>    
         <div class="box">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/Calligraffitti.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Calligraffitti</p>
@@ -680,7 +682,7 @@
         </div> 
          <hr>
          <div class="box">
-             <button class="bttn" onclick="window.location.href='abril.html'">
+             <button class="bttn" onclick="window.location.href='pages/pages/caviche_one.html'">
                  <div class="fonts">
                      <div class="font-names">
                          <p class="name">Ceviche One</p>
@@ -699,7 +701,7 @@
          </div>
          <hr>
          <div class="box">
-            <button class="bttn" onclick="window.location.href='cedarville.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/cedarville_cursive.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Cedarville Cursive</p>
@@ -718,7 +720,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='charm.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/charm.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Charm</p>
@@ -737,7 +739,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/pages/cherish.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Cherish</p>
@@ -756,7 +758,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='clicker.html'">
+            <button class="bttn" onclick="window.location.href='pages/clicker.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Clicker Script</p>
@@ -775,7 +777,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/abril.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Cookie</p>
@@ -794,7 +796,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/abril.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Corinthia</p>
@@ -813,7 +815,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/abril.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Comforter Brush</p>
@@ -832,7 +834,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='courgette.html'">
+            <button class="bttn" onclick="window.location.href='pages/courgette.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Courgette</p>
@@ -851,7 +853,7 @@
         </div>
         <hr>        
         <div class="box">
-            <button class="bttn" onclick="window.location.href='damion.html'">
+            <button class="bttn" onclick="window.location.href='pages/damion.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Damion</p>
@@ -870,7 +872,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='dancing-script.html'">
+            <button class="bttn" onclick="window.location.href='pages/dancing-script.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Dancing Script</p>
@@ -889,7 +891,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='danfo.html'">
+            <button class="bttn" onclick="window.location.href='pages/danfo.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Danfo</p>
@@ -908,7 +910,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='dekko.html'">
+            <button class="bttn" onclick="window.location.href='pages/dekko.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Dekko</p>
@@ -927,7 +929,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='delicious-handrawn.html'">
+            <button class="bttn" onclick="window.location.href='pages/delicious-handrawn.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Delicious Handrawn</p>
@@ -946,7 +948,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='devonshire.html'">
+            <button class="bttn" onclick="window.location.href='pages/devonshire.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Devonshire</p>
@@ -965,7 +967,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='dhurjati.html'">
+            <button class="bttn" onclick="window.location.href='pages/dhurjati.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Dhurjati</p>
@@ -984,7 +986,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='diplomata.html'">
+            <button class="bttn" onclick="window.location.href='pages/diplomata.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Diplomata</p>
@@ -1003,7 +1005,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='dokdo.html'">
+            <button class="bttn" onclick="window.location.href='pages/dokdo.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Dokdo</p>
@@ -1022,7 +1024,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='dr-sugiyama.html'">
+            <button class="bttn" onclick="window.location.href='pages/dr-sugiyama.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Dr Sugiyama</p>
@@ -1041,7 +1043,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='dynalight.html'">
+            <button class="bttn" onclick="window.location.href='pages/dynalight.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Dynalight</p>
@@ -1060,7 +1062,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='eater.html'">
+            <button class="bttn" onclick="window.location.href='pages/eater.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Eater</p>
@@ -1079,7 +1081,7 @@
         </div>
         <hr>        
         <div class="box">
-            <button class="bttn" onclick="window.location.href='eaglelake.html'">
+            <button class="bttn" onclick="window.location.href='pages/eaglelake.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Eagle Lake</p>
@@ -1098,7 +1100,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='emilyscandy.html'">
+            <button class="bttn" onclick="window.location.href='pages/emilyscandy.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Emilys Candy</p>
@@ -1117,7 +1119,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='emblemaone.html'">
+            <button class="bttn" onclick="window.location.href='pages/emblemaone.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Emblema One</p>
@@ -1136,7 +1138,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='engagement.html'">
+            <button class="bttn" onclick="window.location.href='pages/engagement.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Engagement</p>
@@ -1156,7 +1158,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='ephesis.html'">
+            <button class="bttn" onclick="window.location.href='pages/ephesis.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Ephesis</p>
@@ -1175,7 +1177,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='estonia.html'">
+            <button class="bttn" onclick="window.location.href='pages/estonia.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Estonia</p>
@@ -1194,7 +1196,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='euphoria.html'">
+            <button class="bttn" onclick="window.location.href='pages/euphoria.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Euphoria Script</p>
@@ -1213,7 +1215,7 @@
         </div>
         <hr>        
         <div class="box">
-            <button class="bttn" onclick="window.location.href='ewert.html'">
+            <button class="bttn" onclick="window.location.href='pages/ewert.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Ewert</p>
@@ -1232,7 +1234,7 @@
         </div>
         <hr>    
         <div class="box">
-            <button class="bttn" onclick="window.location.href='explore.html'">
+            <button class="bttn" onclick="window.location.href='pages/explore.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Explora</p>
@@ -1251,7 +1253,7 @@
         </div>
         <hr>        
         <div id="fanwood" class="box">
-            <button class="bttn" onclick="window.location.href='fanwood.html'">
+            <button class="bttn" onclick="window.location.href='pages/fanwood.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fanwood Text</p>
@@ -1270,7 +1272,7 @@
         </div>
         <hr>        
         <div id="farsan" class="box">
-            <button class="bttn" onclick="window.location.href='farsan.html'">
+            <button class="bttn" onclick="window.location.href='pages/farsan.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Farsan</p>
@@ -1289,7 +1291,7 @@
         </div>
         <hr>        
         <div id="fasterone" class="box">
-            <button class="bttn" onclick="window.location.href='fasterone.html'">
+            <button class="bttn" onclick="window.location.href='pages/fasterone.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Faster One</p>
@@ -1308,7 +1310,7 @@
         </div>
         <hr>        
         <div id="fasthand" class="box">
-            <button class="bttn" onclick="window.location.href='fasthand.html'">
+            <button class="bttn" onclick="window.location.href='pages/fasthand.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fasthand</p>
@@ -1327,7 +1329,7 @@
         </div>
         <hr>        
         <div id="fascinateinline" class="box">
-            <button class="bttn" onclick="window.location.href='fascinateinline.html'">
+            <button class="bttn" onclick="window.location.href='pages/fascinateinline.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fascinate Inline</p>
@@ -1346,7 +1348,7 @@
         </div>
         <hr>
         <div id="fastive" class="box">
-            <button class="bttn" onclick="window.location.href='fastive.html'">
+            <button class="bttn" onclick="window.location.href='pages/fastive.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Festive</p>
@@ -1365,7 +1367,7 @@
         </div>
         <hr>
         <div id="felipa" class="box">
-            <button class="bttn" onclick="window.location.href='felipa.html'">
+            <button class="bttn" onclick="window.location.href='pages/felipa.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Felipa</p>
@@ -1384,7 +1386,7 @@
         </div>
         <hr>
         <div id="federant" class="box">
-            <button class="bttn" onclick="window.location.href='federant.html'">
+            <button class="bttn" onclick="window.location.href='pages/federant.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Federant</p>
@@ -1403,7 +1405,7 @@
         </div>
         <hr>        
         <div id="fingerpaint" class="box">
-            <button class="bttn" onclick="window.location.href='fingerpaint.html'">
+            <button class="bttn" onclick="window.location.href='pages/fingerpaint.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Finger Paint</p>
@@ -1422,7 +1424,7 @@
         </div>
         <hr>       
         <div id="fleurdeleah" class="box">
-            <button class="bttn" onclick="window.location.href='fleurdeleah.html'">
+            <button class="bttn" onclick="window.location.href='pages/fleurdeleah.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fleur de Leah</p>
@@ -1441,7 +1443,7 @@
         </div>
         <hr>       
         <div id="fontdinerswanky" class="box">
-            <button class="bttn" onclick="window.location.href='fontdinerswanky.html'">
+            <button class="bttn" onclick="window.location.href='pages/fontdinerswanky.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fontdiner Swanky</p>
@@ -1460,7 +1462,7 @@
         </div>
         <hr>      
         <div id="foldit" class="box">
-            <button class="bttn" onclick="window.location.href='foldit.html'">
+            <button class="bttn" onclick="window.location.href='pages/foldit.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Foldit</p>
@@ -1479,7 +1481,7 @@
         </div>
         <hr>
         <div id="fruktur" class="box">
-            <button class="bttn" onclick="window.location.href='fruktur.html'">
+            <button class="bttn" onclick="window.location.href='pages/fruktur.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fruktur</p>
@@ -1498,7 +1500,7 @@
         </div>
         <hr>
         <div id="freehand" class="box">
-            <button class="bttn" onclick="window.location.href='freehand.html'">
+            <button class="bttn" onclick="window.location.href='pages/freehand.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Freehand</p>
@@ -1517,7 +1519,7 @@
         </div>
         <hr>
         <div id="fuggles" class="box">
-            <button class="bttn" onclick="window.location.href='fuggles.html'">
+            <button class="bttn" onclick="window.location.href='pages/fuggles.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Fuggles</p>
@@ -1536,7 +1538,7 @@
         </div>
         <hr>
         <div id="gamaamli" class="box">
-            <button class="bttn" onclick="window.location.href='gamaamli.html'">
+            <button class="bttn" onclick="window.location.href='pages/gamaamli.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Ga Maamli</p>
@@ -1555,7 +1557,7 @@
         </div>
         <hr>
         <div id="galada" class="box">
-            <button class="bttn" onclick="window.location.href='galada.html'">
+            <button class="bttn" onclick="window.location.href='pages/galada.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Galada<p>
@@ -1574,7 +1576,7 @@
         </div>
         <hr>
         <div id="gamjaflower" class="box">
-            <button class="bttn" onclick="window.location.href='gamjaflower.html'">
+            <button class="bttn" onclick="window.location.href='pages/gamjaflower.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gamja Flower</p>
@@ -1593,7 +1595,7 @@
         </div>
         <hr>
         <div id="geostarfill" class="box">
-            <button class="bttn" onclick="window.location.href='geostarfill.html'">
+            <button class="bttn" onclick="window.location.href='pages/geostarfill.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Geostar Fill</p>
@@ -1612,7 +1614,7 @@
         </div>
         <hr>
         <div id="germaniaone" class="box">
-            <button class="bttn" onclick="window.location.href='germaniaone.html'">
+            <button class="bttn" onclick="window.location.href='pages/germaniaone.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Germania One<p>
@@ -1631,7 +1633,7 @@
         </div>
         <hr>
         <div id="genos" class="box">
-            <button class="bttn" onclick="window.location.href='genos.html'">
+            <button class="bttn" onclick="window.location.href='pages/genos.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Genos</p>
@@ -1650,7 +1652,7 @@
         </div>
         <hr>
         <div id="giveyouglory" class="box">
-            <button class="bttn" onclick="window.location.href='giveyouglory.html'">
+            <button class="bttn" onclick="window.location.href='pages/giveyouglory.html'">
                 <div class="fonts">
                     <div class="font-names">
                        <p class="name">Give You Glory</p>
@@ -1669,7 +1671,7 @@
         </div>
         <hr>
         <div id="gidugu" class="box">
-            <button class="bttn" onclick="window.location.href='gidugu.html'">
+            <button class="bttn" onclick="window.location.href='pages/gidugu.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gidugu</p>
@@ -1688,7 +1690,7 @@
         </div>
         <hr>
         <div id="gloriahallelujah" class="box">
-            <button class="bttn" onclick="window.location.href='gloriahallelujah.html'">
+            <button class="bttn" onclick="window.location.href='pages/gloriahallelujah.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gloria Hallelujah</p>
@@ -1707,7 +1709,7 @@
         </div>
         <hr>
         <div id="gloock" class="box">
-            <button class="bttn" onclick="window.location.href='gloock.html'">
+            <button class="bttn" onclick="window.location.href='pages/gloock.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gloock</p>
@@ -1726,7 +1728,7 @@
         </div>
         <hr>
         <div id="gluten" class="box">
-            <button class="bttn" onclick="window.location.href='gluten.html'">
+            <button class="bttn" onclick="window.location.href='pages/gluten.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gluten</p>
@@ -1745,7 +1747,7 @@
         </div>
         <hr>
         <div id="glassantiqua" class="box">
-            <button class="bttn" onclick="window.location.href='glassantiqua.html'">
+            <button class="bttn" onclick="window.location.href='pages/glassantiqua.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Glass Antiqua</p>
@@ -1764,7 +1766,7 @@
         </div>
         <hr>
         <div id="gochihand" class="box">
-            <button class="bttn" onclick="window.location.href='gochihand.html'">
+            <button class="bttn" onclick="window.location.href='pages/gochihand.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gochi Hand</p>
@@ -1784,7 +1786,7 @@
         </div>
         <hr>
         <div id="goblinone" class="box">
-            <button class="bttn" onclick="window.location.href='goblinone.html'">
+            <button class="bttn" onclick="window.location.href='pages/goblinone.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Goblin One</p>
@@ -1803,7 +1805,7 @@
         </div>
         <hr>
         <div id="gorditas" class="box">
-            <button class="bttn" onclick="window.location.href='gorditas.html'">
+            <button class="bttn" onclick="window.location.href='pages/gorditas.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gorditas</p>
@@ -1822,7 +1824,7 @@
         </div>
         <hr>
         <div id="greatvibes" class="box">
-            <button class="bttn" onclick="window.location.href='greatvibes.html'">
+            <button class="bttn" onclick="window.location.href='pages/greatvibes.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Great Vibes</p>
@@ -1841,7 +1843,7 @@
         </div>
         <hr>
         <div id="grandhotel" class="box">
-            <button class="bttn" onclick="window.location.href='grandhotel.html'">
+            <button class="bttn" onclick="window.location.href='pages/grandhotel.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Grand Hotel</p>
@@ -1860,7 +1862,7 @@
         </div>
         <hr>
         <div id="grenzegotisch" class="box">
-            <button class="bttn" onclick="window.location.href='grenzegotisch.html'">
+            <button class="bttn" onclick="window.location.href='pages/grenzegotisch.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Grenze Gotisch</p>
@@ -1879,7 +1881,7 @@
         </div>
         <hr>
         <div id="grapenuts" class="box">
-            <button class="bttn" onclick="window.location.href='grapenuts.html'">
+            <button class="bttn" onclick="window.location.href='pages/grapenuts.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Grape Nuts</p>
@@ -1898,7 +1900,7 @@
         </div>
         <hr>
         <div id="grechenfueme" class="box">
-            <button class="bttn" onclick="window.location.href='grechenfueme.html'">
+            <button class="bttn" onclick="window.location.href='pages/grechenfueme.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Grechen Fuemen</p>
@@ -1917,7 +1919,7 @@
         </div>
         <hr>
         <div id="gurajada" class="box">
-            <button class="bttn" onclick="window.location.href='gurajada.html'">
+            <button class="bttn" onclick="window.location.href='pages/gurajada.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gurajada</p>
@@ -1936,7 +1938,7 @@
         </div>
         <hr>
         <div id="gwendolyn" class="box">
-            <button class="bttn" onclick="window.location.href='gwendolyn.html'">
+            <button class="bttn" onclick="window.location.href='pages/gwendolyn.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Gwendolyn</p>
@@ -1955,7 +1957,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='hndlee.html'">
+            <button class="bttn" onclick="window.location.href='pages/hndlee.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Handlee</p>
@@ -1974,7 +1976,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='happymonkey.html'">
+            <button class="bttn" onclick="window.location.href='pages/happymonkey.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Happy Monkey</p>
@@ -1993,7 +1995,7 @@
         </div>
         <hr>  
         <div class="box">
-            <button class="bttn" onclick="window.location.href='handjet.html'">
+            <button class="bttn" onclick="window.location.href='pages/handjet.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Handjet</p>
@@ -2012,7 +2014,7 @@
         </div>
         <hr>
          <div class="box">
-            <button class="bttn" onclick="window.location.href='hanaleifill.html'">
+            <button class="bttn" onclick="window.location.href='pages/hanaleifill.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Hanalei Fill</p>
@@ -2031,7 +2033,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='hanalei.html'">
+            <button class="bttn" onclick="window.location.href='pages/hanalei.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Hanalei</p>
@@ -2050,7 +2052,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='herrvonmuellerhoff.html'">
+            <button class="bttn" onclick="window.location.href='pages/herrvonmuellerhoff.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Herr Von Muellerhoff</p>
@@ -2069,7 +2071,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='hennypenny.html'">
+            <button class="bttn" onclick="window.location.href='pages/hennypenny.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Henny Penny</p>
@@ -2088,7 +2090,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='himelody.html'">
+            <button class="bttn" onclick="window.location.href='pages/himelody.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Hi Melody</p>
@@ -2107,7 +2109,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='abril.html'">
+            <button class="bttn" onclick="window.location.href='pages/abril.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Homemade Apple</p>
@@ -2126,7 +2128,7 @@
         </div> 
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='holtwoodonesc.html'">
+            <button class="bttn" onclick="window.location.href='pages/holtwoodonesc.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Holtwood One SC</p>
@@ -2145,7 +2147,7 @@
         </div>
         <hr>
         <div class="box">
-            <button class="bttn" onclick="window.location.href='hurricane.html'">
+            <button class="bttn" onclick="window.location.href='pages/hurricane.html'">
                 <div class="fonts">
                     <div class="font-names">
                         <p class="name">Hurricane</p>
